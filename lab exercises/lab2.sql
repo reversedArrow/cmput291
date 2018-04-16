@@ -1,0 +1,39 @@
+
+DROP TABLE IF EXISTS Line;
+DROP TABLE IF EXISTS Stop;
+DROP TABLE IF EXISTS DummyTable;
+
+CREATE TABLE Line (
+	line_id INT,
+	PRIMARY KEY (line_id)
+);
+
+CREATE TABLE Stop (
+	stop_id INT,
+	name TEXT,
+	latitude REAL,
+	longitude REAL,
+	PRIMARY KEY (stop_id)
+);
+
+CREATE TABLE DummyTable (
+	dummy_id INT,
+	PRIMARY KEY (dummy_id)
+);
+
+.print "Tables created"
+
+INSERT INTO Line VALUES(1);
+INSERT INTO Line VALUES(9);
+INSERT INTO Line VALUES(100);
+
+INSERT INTO Stop VALUES(10,'s10',53.541,-113.512);
+INSERT INTO Stop VALUES(11,'s11',53.541,-113.524);
+INSERT INTO Stop VALUES(12,'s12',53.541,-113.493);
+INSERT INTO Stop VALUES(20,'t20',53.510,-113.512);
+INSERT INTO Stop VALUES(21,'t21',53.534,-113.585);
+INSERT INTO Stop VALUES(30,'x30',51.158,-114.068);
+INSERT INTO Stop VALUES(31,'x31',51.152,-114.064);
+
+
+.print "Initialization completed"

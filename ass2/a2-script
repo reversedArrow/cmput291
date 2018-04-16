@@ -1,0 +1,84 @@
+Script started on Fri 23 Feb 2018 10:36:04 AM MST
+xianhang@uc05:~/C291/ass2>sqlite3
+SQLite version 3.11.0 2016-02-15 17:29:24
+Enter ".help" for usage hints.
+Connected to a [1mtransient in-memory database[0m.
+Use ".open FILENAME" to reopen on a persistent database.
+sqlite> .read a2-tables.sql
+
+sqlite> .read a2-data.sql
+Data inserted successfully
+
+sqlite> .read a2-queries.sql
+Question 1 -xianhang
+(209) 164-7895
+(583) 636-4313
+(904) 694-9532
+Question 2 -xianhang
+Areli Lowery|(706) 692-2734|Carina Herrera
+Lila Sloan|(626) 284-7432|Roderick Gould
+Luz Kim|(796) 248-8999|Jeremy Dawson
+Julie Herrera|(359) 306-2012|Dan Brown
+Itzel Guerrero|(287) 679-5399|Braden Odonnell
+Question 3 -xianhang
+Sidney Preston
+Question 4 -xianhang
+major accounts manager|26|42870.16
+medium accounts manager|6|9167.75
+small accounts manager|30|50783.9
+Question 5 -xianhang
+Trevor Stafford
+Question 6 -xianhang
+2G1FP3
+4CDR5B
+Question 7 -xianhang
+1FAFP5
+1FTNX2
+1G4AL7
+1GCEK1
+1GCESB
+1GDZ7U
+1GKDT1
+1GT5K0
+1GTCT1
+2FWBA2
+2GTHK3
+2J4FY2
+3B6WF3
+3C3ES4
+3D7KS2
+3GTP1T
+4S2CG5
+4S3BH6
+4S4BRE
+JF1AX4
+JH2SC6
+JH4KB2
+JHLRE3
+JS1GV7
+JTDBT9
+JTJBM7
+KL7TN5
+WA1VGA
+WBAAM5
+WBAFR1
+WDDHF2
+Question 8 -xianhang
+12345
+77131
+88569
+Question 9 -xianhang
+Question 10 -xianhang
+Cadillac Escalade EXT|0.0|0.0|0.0
+Chevrolet Colorado|443.909027778078|443.909027778078|443.909027778078
+Chevrolet Silverado Hybrid|2110.23680555588|2110.23680555588|2110.23680555588
+Dodge Dakota|2557.70848379657|2557.70848379657|2557.70848379657
+Ford|637.130798610859|2176.3277777778|1280.78863136563
+Ford Explorer Sport Trac|510.673877314664|510.673877314664|510.673877314664
+Ford F-Series|907.666307870299|907.666307870299|907.666307870299
+
+sqlite> .quit
+xianhang@uc05:~/C291/ass2>exit
+exit
+
+Script done on Fri 23 Feb 2018 10:37:09 AM MST
